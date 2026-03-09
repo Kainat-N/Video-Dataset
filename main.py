@@ -3,7 +3,7 @@ from interactive_chat import InteractiveChat
 from validator import validate_attributes
 from config_saver import save_config
 
-API_KEY = "AIzaSyBcmQdOdN-ArYuhu2U3zzEpyHTMWr7ZNtw"
+API_KEY = ""
 
 chatbot = InteractiveChat(API_KEY)
 
@@ -51,3 +51,4 @@ while True:
 
     # except:
     #     pass
+
